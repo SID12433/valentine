@@ -1,0 +1,80 @@
+body {
+    font-family: 'Lobster', cursive; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0;
+    font-size: 35px;
+}
+.hh{
+    font-weight:900;
+
+}
+.pp{
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+body
+
+.container {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+.image{
+    height: 280px;
+    
+}
+
+.buttons button {
+    color: #000000;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 26px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Lobster', cursive; /* Change to a romantic cursive font */
+
+}
+
+.buttons button:hover {
+    background-color: #e3abb9;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#no-button{
+    
+}
+
+.hidden-message {
+    display: none;
+    margin-top: 20px;
+}
+
+.move {
+    animation: moveNoMessage 0.5s linear;
+}
+
+@keyframes moveNoMessage {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(30px, 30px); }
+    50% { transform: translate(-20px, -20px); }
+    75% { transform: translate(10px, 10px); }
+    100% { transform: translate(0, 0); }
+}
